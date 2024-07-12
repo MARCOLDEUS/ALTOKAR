@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+body{
+    overflow-x: hidden;
+}
+p#pro{
+    background-color: rgb(255, 255, 255, 0.4);
+    
+    font-family:'Courier New', Courier, monospace;
+}
+h2.pesq{
+    position: relative;
+    top: -200px;
+    left: 300px;
+    width: 300px;
+}
+h2.pesq input{
+    width: 400px;
+    height: 20px;
+}
+img.logo{
+    position: relative;
+    left: -50px;
+}
+div.pro{
+    width: 1300px;
+    height: 590px;
+background-color: rgb(35, 39, 65);
+font-size:larger;
+font-weight: 900;
+}
+div.pro{
+    display: flex;
+}
+figure.pro-box{
+    gap: 5px;
+}
+figure.pro{
+    position: relative;
+    left: 30px;
+    top: 0px;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    width: 1300px;
+    height: 550px;
+    transition: flex .3s ease-in-out;
+    margin-left: -30px;
+
+}
+figure.pro figcaption{
+    position: relative;
+    top: -100px;
+    left: 200px;
+}
+figure.pro img{
+    object-fit: cover;
+    border-radius: 5px;
+}
+figure.pro:hover{
+flex: 1.5;
+}
+/*modelos de carros*/
+div.bmw figure{
+    display: inline-flex;
+    background-color: rgb(22, 26, 52);
+    margin: 5px;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+}
+div.bmw{
+    margin: 5px;
+    background-color: rgb(35, 39, 65);
+    width: 1300px;
+}
+div.bmw p{
+position: relative;
+left: -250px;
+top: 200px;
+font-family:'Courier New', Courier, monospace;
+
+}
+div.chevrolet figure{
+    display: inline-flex;
+    background-color: rgb(22, 26, 52);
+    margin: 5px;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+}
+div.chevrolet{
+    margin: 5px;
+    background-color: rgb(35, 39, 65);
+    width: 1300px;
+}
+div.chevrolet p{
+position: relative;
+left: -250px;
+top: 200px;
+font-family:'Courier New', Courier, monospace;
+
+}
+div.fiat figure{
+    display: inline-flex;
+    background-color: rgb(22, 26, 52);
+    margin: 5px;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+}
+div.fiat{
+    margin: 5px;
+    background-color: rgb(35, 39, 65);
+    width: 1300px;
+}
+div.fiat p{
+position: relative;
+left: -250px;
+top: 200px;
+font-family:'Courier New', Courier, monospace;
+
+}
+div.mercdes-benz figure{
+    display: inline-flex;
+    background-color: rgb(22, 26, 52);
+    margin: 5px;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+}
+div.mercdes-benz{
+    margin: 5px;
+    background-color: rgb(35, 39, 65);
+    width: 1300px;
+}
+div.mercdes-benz p{
+position: relative;
+left: -250px;
+top: 200px;
+font-family:'Courier New', Courier, monospace;
+
+}
